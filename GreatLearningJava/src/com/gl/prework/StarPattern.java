@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class StarPattern {
 
 	public static void main(String[] args) {
-
+/*
+ * reverse star pattern
+ */
 		Scanner input = new Scanner(System.in);
 		StringBuffer pattern = new StringBuffer("");
 		int i = input.nextInt();

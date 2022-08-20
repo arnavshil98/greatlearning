@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class PalindromeNumbers {
 
 	public static void main(String[] args) {
+
 		/*
 		 * 123454321
 		 */

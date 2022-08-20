@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class PalindromeNumbers {
 
 	public static void main(String[] args) {
-
+		/*
+		 * 123454321
+		 */
 		Scanner input = new Scanner(System.in);
 		int length = input.nextInt() * 2;
 		System.out.println(length);

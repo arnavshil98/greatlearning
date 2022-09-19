@@ -30,6 +30,10 @@ public class C {
 		System.out.println(c); // hash identity C@7852e922
 		System.out.println(c1); // hash identity C@4e25154f
 		System.out.println(c2); // hash identity C@70dea4e
+		
+		
+		A.i = 13;
+		System.out.println(A.i);
 	}
 
 }

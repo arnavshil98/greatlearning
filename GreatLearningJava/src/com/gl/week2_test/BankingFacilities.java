@@ -13,6 +13,7 @@ public class BankingFacilities {
 		for (int i = 0; i < myNumbers.length; i++) {
 			myNumbers[i] = i;
 		}
+		
 		for (int i = 0; i < size; i++) {
 			index = (int) Math.floor(Math.random() * 10);
 			if (myNumbers[index] >= 0) {

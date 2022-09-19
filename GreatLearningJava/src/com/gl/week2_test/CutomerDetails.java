@@ -12,9 +12,9 @@ public class CutomerDetails {
 
 	public boolean validateCred(String user, String Pswd) throws Exception {
 		HashMap<String, String> userPasswordComb = new HashMap<>();
-		userPasswordComb.put("Arnav", "21540");
-		userPasswordComb.put("Rahul", "32190");
-		userPasswordComb.put("Aditya", "67190");
+		userPasswordComb.put("17109567891", "21540");
+		userPasswordComb.put("67109561191", "32190");
+		userPasswordComb.put("37119567891", "67190");
 
 		if (userPasswordComb.get(user).equalsIgnoreCase(Pswd)) {
 			System.out.println("credentials validated: " + user);

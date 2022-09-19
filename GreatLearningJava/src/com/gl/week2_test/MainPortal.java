@@ -8,7 +8,16 @@ public class MainPortal {
 
 	public static void main(String[] args) throws Exception {
 
-		System.out.println("please insert usename: ");
+		/* metadata:
+		 * account no: password: current amount
+		 *"17109567891": "21540": 90000.50
+		 *"67109561191": "32190": 20000.50
+		 *"37119567891": "67190": 15000.50
+		 */
+		
+		
+		
+		System.out.println("please insert account number: ");
 		Scanner sc1 = new Scanner(System.in);
 		String userName = sc1.nextLine();
 

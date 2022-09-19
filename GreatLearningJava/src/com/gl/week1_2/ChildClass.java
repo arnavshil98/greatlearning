@@ -1,7 +1,9 @@
 package com.gl.week1_2;
 
 public class ChildClass extends ParentClass{
-
+/*
+ * child class prc
+ */
 	public ChildClass() {
 		System.out.println("child class constructor");
 	}

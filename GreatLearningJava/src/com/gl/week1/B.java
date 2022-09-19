@@ -24,19 +24,22 @@ public class B extends A {
 	}
 
 	public static void main(String[] args) {
-
-		B b = new B(3, 6);
-		System.out.println(b.q + b.w);
-		System.out.println(A.p * 2);
-
-		A.name();
-		System.out.println(A.area(3, 4));
-
-		/*
-		 * AInterface.god = "god doesn't exist"; variables declared in interfaces are
-		 * static and final.
-		 */
-		System.out.println(AInterface.god);
+		
+//		B b = new B(3, 6);
+//		System.out.println(b.q + b.w);
+//		System.out.println("value set at compile by static block: "+A.p * 2);
+//		A.p = 40;
+//		System.out.println("value set at runtime: "+A.p * 2);
+//		A.name();
+//		System.out.println(A.area(3, 4));
+//
+//		/*
+//		 * AInterface.god = "god doesn't exist"; variables declared in interfaces are
+//		 * static and final.
+//		 */
+//		System.out.println(AInterface.god);
+		
+		
 
 	}
 
